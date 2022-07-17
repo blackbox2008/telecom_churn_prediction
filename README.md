@@ -8,8 +8,10 @@ prediction and classification using decision tree, logistic regression, naïve b
 all phases of data preparation, data preprocessing, exploratory data analysis, modeling and evaluation may be carried out one-button.
 the churn.py script includes comments about different phases.
 For configuring the parameters in several parts of the source code, please read the following comments:
- a) decision tree building
+ a) decision tree building 
  X_train and X_test data include the predictor names in the model. you can add or delete predictors
  but remember to modify the related lines (lines 232-233) to generate the respective dummy variables.
- to run the CART or C5.0 algorithms, you may run the fitting fuction in the source code with the customized parameters.
+ to run the CART or C5.0 algorithms, you may run the fitting fuction in the source code with the customized parameters, or run the relate Python source code
+ ('churn_CART Model.py' and 'churn_C5.0 Model.py')
  maxdepth, minsampleaf. maxdepth =5 is recommended.
+The random forest model may be built by running 'churn_RandomForest_Model.py' file
