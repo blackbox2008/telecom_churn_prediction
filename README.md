@@ -15,3 +15,4 @@ For configuring the parameters in several parts of the source code, please read 
  ('churn_CART Model.py' and 'churn_C5.0 Model.py')
  maxdepth, minsampleaf. maxdepth =5 is recommended.
 The random forest model may be built by running 'churn_RandomForest_Model.py' file
+The logistic regression  model may be built by running 'churn_LogisticRegression.py' file
